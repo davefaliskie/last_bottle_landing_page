@@ -44,22 +44,22 @@ class Hero extends Component {
 
             <div className={`${styles.cover_imgs_container} text-center d-flex justify-content-center`}>
                 <Image 
-                  src="/images/phones/device_15_home_feed2.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
+                  src="/images/phones/endTrash.png" 
+                  alt="Screenshot of Last Bottle app showing the landfill endscreen."
                   height={400}
                   width={200}
                   className='phone_shadow mt-5 d-none d-md-block'
                 />
                 <Image 
-                  src="/images/phones/device_15_player_full.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
+                  src="/images/phones/gamePlay.png" 
+                  alt="Screenshot of Last Bottle app showing the main game play."
                   height={500}
                   width={250}
                   className='phone_shadow mx-4'
                 />
                 <Image 
-                  src="/images/phones/device_15_player_response.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
+                  src="/images/phones/endWater.png" 
+                  alt="Screenshot of Last Bottle app showing the water endscreen."
                   height={400}
                   width={200}
                   className='phone_shadow mt-5 d-none d-md-block'

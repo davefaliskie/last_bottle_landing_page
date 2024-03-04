@@ -9,8 +9,8 @@ $section_headline_height: 70vh;
   position: relative;
   height: $section_headline_height;
   width: 100vw;
-  background: rgb(22,130,94);
-  background: radial-gradient(circle, rgba(22,130,94,1) 0%, rgba(18,122,87,1) 30%, rgba(33,95,74,1) 100%);
+  background: rgb(23,93,198);
+  background: radial-gradient(circle,  rgba(23, 93, 198, 1) 50%, rgba(41, 144, 219, 1) 100%);
 
   h1 {
     padding-top: 1.5em;
@@ -36,16 +36,16 @@ $section_headline_height: 70vh;
   }
   .vLine1, .vLine6 {
     // outsides
-    background-color: #287058;
+    background-color: #4c81d0;
     width: 3px;
   }
   .vLine2, .vLine5 {
-    background-color: #127c58;
+    background-color: #3869b1;
     width: 2px;
   }
   .vLine3, .vLine4 {
     // middle
-    background-color: #148761;
+    background-color: #336abc;
   }
   .vLine1 {left: 15%;}
   .vLine2 {left: 29%;}

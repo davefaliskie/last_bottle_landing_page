@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ReactGA from 'react-ga4';
+// import ReactGA from 'react-ga4';
 
 class AppLinks extends Component {
   trackClickGA = (event_name) => {
     // Add event tracking here, but ensure it only runs when the button is clicked
-    ReactGA.event({
-      category: 'Button Click',
-      action: event_name,
-    });
+    // ReactGA.event({
+    //   category: 'Button Click',
+    //   action: event_name,
+    // });
   };
 
   render() {
