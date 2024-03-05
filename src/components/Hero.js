@@ -51,7 +51,7 @@ class Hero extends Component {
                   className='phone_shadow mt-5 d-none d-md-block'
                 />
                 <Image 
-                  src="/images/phones/gamePlay.png" 
+                  src="/images/phones/recycle.png" 
                   alt="Screenshot of Last Bottle app showing the main game play."
                   height={500}
                   width={250}
