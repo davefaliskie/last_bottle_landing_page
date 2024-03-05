@@ -44,7 +44,7 @@ export default function Home() {
               <div className={`${styles.backsplash_container} col-md-4 offset-md-1 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/gamePlay1.png" 
+                  src="/images/phones/gamePlay.png" 
                   alt="Screenshot of Last Bottle app showing the main game play"
                   height={400}
                   width={200}
