@@ -114,7 +114,7 @@ export default function Home() {
         </div>
 
         <div id={styles.section_wait_list}>
-          <h2 className='h2-lg my-lg text-center'>Play Last Bottle Now</h2>
+          <h2 className='h2-lg my-lg text-center'>Play Now</h2>
           < AppLinks />
         </div>
       </main>
