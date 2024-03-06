@@ -16,7 +16,7 @@ export default function Home() {
           subtitle="Take the journey that reveals the hidden truths behind recycling"
         />
 
-        {/* < AppLinks /> */}
+        < AppLinks />
  
         <div id={styles.section_features}>
           <h2 className="h2-lg my-lg text-center">Experience The Bottle's Journey</h2>
@@ -114,8 +114,8 @@ export default function Home() {
         </div>
 
         <div id={styles.section_wait_list}>
-          {/* <h2 className='h2-lg my-lg text-center'>Play Last Bottle Now</h2> */}
-          {/* < AppLinks /> */}
+          <h2 className='h2-lg my-lg text-center'>Play Last Bottle Now</h2>
+          < AppLinks />
         </div>
       </main>
     </>
