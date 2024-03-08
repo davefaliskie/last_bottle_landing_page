@@ -110,6 +110,23 @@ export default function Home() {
               </div>
             </div>
 
+            <div className="row my-5 justify-content-md-center">
+              <div className={`${styles.backsplash_container} col-md-4 offset-md-1 text-center`} >
+                <div className={`${styles.backsplash} mx-auto`}></div>
+                <Image 
+                  src="/images/phones/ja_walletTurtle.png" 
+                  alt="Screenshot of Last Bottle app showing a turtle hazard trading card"
+                  height={400}
+                  width={200}
+                  className={`${styles.backsplash_image} phone_shadow`}
+                />
+              </div>
+               <div className='col-md-4 my-auto order-md-first'>
+                <h3>Global Reach</h3>
+                <p>Last Bottle has full support for English and Japanese, with more languages coming soon!</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
